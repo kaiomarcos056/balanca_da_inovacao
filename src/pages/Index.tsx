@@ -61,10 +61,6 @@ const Index = () => {
                 <p className="text-xs text-muted-foreground">Pesando riscos e benefícios do compartilhamento de dados</p>
               </div>
             </div>
-            <Badge variant="secondary" className="gap-1">
-              <Sparkles className="h-3 w-3" />
-              Protótipo de Pesquisa
-            </Badge>
           </div>
         </div>
       </header>
@@ -171,11 +167,11 @@ const Index = () => {
       </main>
 
       {/* Footer */}
-      <footer className="border-t mt-12 py-6 bg-card/50">
-        <div className="container mx-auto px-4 text-center text-sm text-muted-foreground">
-          <p>Protótipo de Pesquisa - Testando a hipótese: <span className="font-medium">Benefício &gt; Risco</span></p>
-        </div>
-      </footer>
+      {/* <footer className="border-t mt-12 py-6 bg-card/50"> */}
+        {/* <div className="container mx-auto px-4 text-center text-sm text-muted-foreground"> */}
+          {/* <p>Protótipo de Pesquisa - Testando a hipótese: <span className="font-medium">Benefício &gt; Risco</span></p> */}
+        {/* </div> */}
+      {/* </footer> */}
     </div>
   );
 };
